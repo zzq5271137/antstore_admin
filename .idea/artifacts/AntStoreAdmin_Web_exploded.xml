@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AntStoreAdmin:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/AntStoreAdmin_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="AntStoreAdmin/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AntStoreAdmin" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
