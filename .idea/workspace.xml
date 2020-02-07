@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a90d0ee-4321-4f03-ac3c-b1a4c938ca02" name="Default Changelist" comment="" />
+    <list default="true" id="3a90d0ee-4321-4f03-ac3c-b1a4c938ca02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AntStoreAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AntStoreAdmin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/com/mycomp/antstoreadmin/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/mycomp/antstoreadmin/web/BaseServlet.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,10 +47,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WebContent/WEB-INF/lib/junit-4.9.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -56,10 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\AntStoreAdmin\WebContent\WEB-INF\lib" />
       <recent name="H:\IDEA_workspace\AntStoreAdmin\web\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.MyLocalTomcat9">
+  <component name="RunManager" selected="JUnit.GoodsDaoTest.testAddGoods">
     <configuration name="GoodsDaoTest.testAddGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AntStoreAdmin" />
       <extension name="coverage">
@@ -71,6 +76,22 @@
       <option name="PACKAGE_NAME" value="com.mycomp.antstoreadmin.test" />
       <option name="MAIN_CLASS_NAME" value="com.mycomp.antstoreadmin.test.GoodsDaoTest" />
       <option name="METHOD_NAME" value="testAddGoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsDaoTest.testGetAllGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AntStoreAdmin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycomp.antstoreadmin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycomp.antstoreadmin.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mycomp.antstoreadmin.test.GoodsDaoTest" />
+      <option name="METHOD_NAME" value="testGetAllGoods" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +316,13 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.GoodsDaoTest.testAddGoods" />
+      <item itemvalue="JUnit.GoodsDaoTest.testGetAllGoods" />
       <item itemvalue="Tomcat Server.MyLocalTomcat9" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GoodsDaoTest.testAddGoods" />
+        <item itemvalue="JUnit.GoodsDaoTest.testGetAllGoods" />
       </list>
     </recent_temporary>
   </component>
@@ -313,6 +336,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -351,6 +379,9 @@
       <workItem from="1581069984922" duration="4000" />
       <workItem from="1581070510728" duration="6000" />
       <workItem from="1581072320746" duration="42000" />
+      <workItem from="1581087883344" duration="108000" />
+      <workItem from="1581087993506" duration="5000" />
+      <workItem from="1581089789760" duration="487000" />
     </task>
     <servers />
   </component>
@@ -382,42 +413,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="454" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1581060378645" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1581044139923">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1581090138542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581044139923" />
-    <state width="1295" height="162" key="GridCell.Tab.0.bottom" timestamp="1581065250310">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581090138542" />
+    <state width="1295" height="192" key="GridCell.Tab.0.bottom" timestamp="1581090276845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581065250310" />
-    <state width="1295" height="162" key="GridCell.Tab.0.center" timestamp="1581065250310">
+    <state width="1295" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581090276845" />
+    <state width="1295" height="192" key="GridCell.Tab.0.center" timestamp="1581090276845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581065250310" />
-    <state width="1295" height="162" key="GridCell.Tab.0.left" timestamp="1581065250310">
+    <state width="1295" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581090276845" />
+    <state width="1295" height="192" key="GridCell.Tab.0.left" timestamp="1581090276845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581065250310" />
-    <state width="1295" height="162" key="GridCell.Tab.0.right" timestamp="1581065250310">
+    <state width="1295" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581090276845" />
+    <state width="1295" height="192" key="GridCell.Tab.0.right" timestamp="1581090276845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581065250310" />
-    <state width="1295" height="162" key="GridCell.Tab.1.bottom" timestamp="1581065250311">
+    <state width="1295" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581090276845" />
+    <state width="1295" height="192" key="GridCell.Tab.1.bottom" timestamp="1581090276846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581065250311" />
-    <state width="1295" height="162" key="GridCell.Tab.1.center" timestamp="1581065250310">
+    <state width="1295" height="192" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581090276846" />
+    <state width="1295" height="192" key="GridCell.Tab.1.center" timestamp="1581090276845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581065250310" />
-    <state width="1295" height="162" key="GridCell.Tab.1.left" timestamp="1581065250310">
+    <state width="1295" height="192" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581090276845" />
+    <state width="1295" height="192" key="GridCell.Tab.1.left" timestamp="1581090276845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581065250310" />
-    <state width="1295" height="162" key="GridCell.Tab.1.right" timestamp="1581065250311">
+    <state width="1295" height="192" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581090276845" />
+    <state width="1295" height="192" key="GridCell.Tab.1.right" timestamp="1581090276845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1295" height="162" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581065250311" />
+    <state width="1295" height="192" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581090276845" />
     <state width="1295" height="296" key="GridCell.Tab.2.bottom" timestamp="1581062745557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -434,10 +465,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1295" height="296" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1581062745557" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1581072360754">
+    <state x="249" y="0" key="SettingsEditor" timestamp="1581090275005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581072360754" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581090275005" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1581055860078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
