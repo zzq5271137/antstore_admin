@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a90d0ee-4321-4f03-ac3c-b1a4c938ca02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AntStoreAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AntStoreAdmin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/mycomp/antstoreadmin/web/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/mycomp/antstoreadmin/web/BaseServlet.class" afterDir="false" />
-    </list>
+    <list default="true" id="3a90d0ee-4321-4f03-ac3c-b1a4c938ca02" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -337,11 +333,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -382,6 +373,7 @@
       <workItem from="1581087883344" duration="108000" />
       <workItem from="1581087993506" duration="5000" />
       <workItem from="1581089789760" duration="487000" />
+      <workItem from="1581090941346" duration="10000" />
     </task>
     <servers />
   </component>
