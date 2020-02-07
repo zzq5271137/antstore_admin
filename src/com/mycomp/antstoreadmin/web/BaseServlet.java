@@ -11,8 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 public class BaseServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
+    // 所有关于goods的请求都会来到这里
     protected void service(HttpServletRequest request,
-            HttpServletResponse response)
+                           HttpServletResponse response)
             throws ServletException, IOException {
         String action = request.getParameter("action");
         String destPath = null;
