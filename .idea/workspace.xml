@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a90d0ee-4321-4f03-ac3c-b1a4c938ca02" name="Default Changelist" comment="" />
+    <list default="true" id="3a90d0ee-4321-4f03-ac3c-b1a4c938ca02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/AntStoreAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AntStoreAdmin.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -374,6 +376,9 @@
       <workItem from="1581087993506" duration="5000" />
       <workItem from="1581089789760" duration="487000" />
       <workItem from="1581090941346" duration="10000" />
+      <workItem from="1581303749820" duration="16000" />
+      <workItem from="1581303842434" duration="3000" />
+      <workItem from="1581303889683" duration="11000" />
     </task>
     <servers />
   </component>
