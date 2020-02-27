@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a90d0ee-4321-4f03-ac3c-b1a4c938ca02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AntStoreAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AntStoreAdmin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycomp/antstoreadmin/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/antstoreadmin/dao/AdminDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,6 +379,7 @@
       <workItem from="1581303749820" duration="16000" />
       <workItem from="1581303842434" duration="3000" />
       <workItem from="1581303889683" duration="11000" />
+      <workItem from="1582814343245" duration="14000" />
     </task>
     <servers />
   </component>
